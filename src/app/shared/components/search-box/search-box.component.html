@@ -1,0 +1,9 @@
+
+
+<input
+  type="text"
+  [placeholder]="placeholder"
+  class="form-control"
+  #txtSearchInput
+  (keyup.enter)="onSubmit( txtSearchInput.value )"
+>
